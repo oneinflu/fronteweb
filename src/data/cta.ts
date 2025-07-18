@@ -1,6 +1,6 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
+    heading: 'Join 1M+ Creators & Businesses',
+    subheading: 'Your journey to growth starts here. Download INFLU – Bharat Ka Engine today and take the first step toward a future of endless opportunities!',
     appStoreUrl: '#',
     googlePlayUrl: '#'
 }

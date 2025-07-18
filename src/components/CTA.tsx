@@ -1,7 +1,7 @@
 import { ctaDetails } from "@/data/cta"
+import Link from "next/link"
 
-import AppStoreButton from "./AppStoreButton"
-import PlayStoreButton from "./PlayStoreButton"
+
 
 const CTA: React.FC = () => {
     return (
@@ -18,8 +18,9 @@ const CTA: React.FC = () => {
                         <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
 
                         <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
-                        <AppStoreButton />
-                        <PlayStoreButton />
+                        <Link href="#cta" className="text-link bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors" >
+                                Get Invite Code
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -7,23 +7,23 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Bharat Ka Engine – Powering creators and businesses together.",
     quickLinks: [
         {
-            text: "Features",
-            url: "#features"
+            text: "Privacy Policy",
+            url: "#privacy-policy"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "Terms & Conditions",
+            url: "#terms-conditions"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Cookie Policy",
+            url: "#cookie-policy"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'partner@oneinflu.com',
+    telephone: '+91 (123) 456-7890',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
