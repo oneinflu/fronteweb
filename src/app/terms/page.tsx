@@ -10,9 +10,12 @@ export const metadata = {
 export default function Terms() {
     return (
         <Container>
-            <Section id={''} title={'Terms and Conditions'} description={''}>
-                <div className="max-w-4xl mx-auto py-12">
-                    <h1 className="text-4xl font-bold mb-8">Terms and Conditions</h1>
+            <Section 
+                id="terms-conditions" 
+                title="Terms and Conditions"
+                description="Please read these terms and conditions carefully before using our services."
+            >
+                <div className="max-w-4xl mx-auto">
                     <div className="prose prose-lg">
                         <p className="text-foreground-accent mb-6">Last updated: {new Date().toLocaleDateString()}</p>
 

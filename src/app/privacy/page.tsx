@@ -10,9 +10,12 @@ export const metadata = {
 export default function PrivacyPolicy() {
     return (
         <Container>
-            <Section id={''} title={'Privacy Policy'} description={''}>
-                <div className="max-w-4xl mx-auto py-12">
-                    <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
+            <Section 
+                id="privacy-policy" 
+                title="Privacy Policy"
+                description="Learn how we collect, use, and protect your personal information."
+            >
+                <div className="max-w-4xl mx-auto">
                     <div className="prose prose-lg">
                         <p className="text-foreground-accent mb-6">Last updated: {new Date().toLocaleDateString()}</p>
                         
